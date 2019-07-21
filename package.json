@@ -1,0 +1,26 @@
+{
+  "name": "vscpp",
+  "version": "2.1.0",
+  "description": "CLI to create C++ projects and files using vscode",
+  "main": "main.js",
+  "repository": {
+    "url": "https://github.com/PoorlyDefinedBehaviour/vscode-cpp-cli.git"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "bin": {
+    "vscpp": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "PoorlyDefinedBehaviour",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/mkdirp": "^0.5.2"
+  }
+}
